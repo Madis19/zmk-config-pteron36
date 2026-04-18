@@ -1,0 +1,4 @@
+#include "pteron36.dtsi"
+&default_transform {
+    col-offset = <5>;
+};
