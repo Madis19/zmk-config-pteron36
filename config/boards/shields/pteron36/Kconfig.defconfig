@@ -10,9 +10,8 @@ endif
 
 if SHIELD_PTERON36_RIGHT
 
-config ZMK_KEYBOARD_NAME
-    default "Pteron36-R"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default n
+
 endif
+
