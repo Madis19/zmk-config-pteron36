@@ -1,12 +1,22 @@
 if SHIELD_PTERON36_LEFT 
 
 config ZMK_KEYBOARD_NAME
-    default "Pteron36"
+    default "Pteron36-L"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default Y
+    default y
 
 endif
+
+if SHIELD_PTERON36_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Pteron36-R"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+endif
+
 
 if SHIELD_PTERON36_LEFT || SHIELD_PTERON36_RIGHT
 
