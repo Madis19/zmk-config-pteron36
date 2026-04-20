@@ -82,7 +82,7 @@
             bindings = <
                 &kp EQUAL     &kp EXCL  &kp AT    &kp HASH  &kp LBRC                             &kp PLUS   &kp ASTRK  &kp CARET &trans      &kp PG_UP
                 &kp DQT       &kp DLLR  &kp PRCNT &kp AMPS  &kp RBRC                             &kp MINUS  &kp UNDER  &kp PIPE  &kp TILDE   &kp GRAVE  
-                &kp SQT       &kp FSLH  &kp LPAR  &kp RPAR  &kp LbKT                             &kp RkKT   &kp QMARK  &kp SEMI  &kp COLON   &kp BSLH
+                &kp SQT       &kp FSLH  &kp LPAR  &kp RPAR  &kp LBKT                             &kp RBKT   &kp QMARK  &kp SEMI  &kp COLON   &kp BSLH
                                   
                                               &trans &trans &trans      &trans &trans &trans
             >;
